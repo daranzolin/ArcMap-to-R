@@ -4,21 +4,21 @@ The purpose of this repository is help me remember how to perform various geopro
 
 # Vector (feature class) Operations
 
-**Operation**|**ArcMap**|**sf**| 
-:-----:|:-----:|:-----:|:-----:
-Project New Coordinate System|Define Projection|`st\_transform`, `st\_crs`| 
-Buffer|Buffer|`st\_buffer`| 
-Find Centroid|Field Calculator|`st\_centroid`| 
-Simplify Geometry|Simplify Polygon, Simplify Line|`st\_simplify`| 
-Triangulate Points|Create TIN|`st\_triangulate`| 
-Create Voronoi Polygons|Create Theissen Polygons|`st\_voronoi`| 
-Create Convex Hull|Minimum Bounding Geometry|`st\_convex\_hull`| 
-Find Intersection|Intersect|`st\_intersect`| 
-Find Overlap|Identity|`st\_difference`| 
-Crop/Clip|Clip|`st\_crop`, `st\_intersection`| 
-Spatial Join|Spatial Join|`st\_union`, `st\_join`| 
-Calculate Proximity|Near|`st\_nearest\_feature`, `st\_nearest\_point`| 
-Symmetrical Difference|Symmetrical Difference|`st\_sym\_difference`| 
+**Operation**|**ArcMap**|**sf**
+:-----:|:-----:|:-----:
+Project New Coordinate System|Define Projection|`st_transform`, `st_crs`
+Buffer|Buffer|`st_buffer`
+Find Centroid|Field Calculator|`st_centroid`
+Simplify Geometry|Simplify Polygon, Simplify Line|`st_simplify`
+Triangulate Points|Create TIN|`st_triangulate`
+Create Voronoi Polygons|Create Theissen Polygons|`st_voronoi`
+Create Convex Hull|Minimum Bounding Geometry|`st_convex_hull`
+Find Intersection|Intersect|`st_intersect`
+Find Overlap|Identity|`st_difference`
+Crop/Clip|Clip|`st_crop`, `st_intersection`
+Spatial Join|Spatial Join|`st_union`, `st_join`
+Calculate Proximity|Near|`st_nearest_feature`, `st_nearest_point`
+Symmetrical Difference|Symmetrical Difference|`st_sym_difference`
 
 # Raster Operations
 
